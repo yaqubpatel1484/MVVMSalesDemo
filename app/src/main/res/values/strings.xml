@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">SalesDemo(MVVM)</string>
+
+    <string name="logout">Logout</string>
+    <string name="add">+</string>
+
+    <string name="user_id">User Id</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="icon_password">Icon Password</string>
+    <string name="icon_user_id">Icon User Id</string>
+    <string name="icon_logo">Logo</string>
+
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="star">*</string>
+
+    <string name="date">Date</string>
+    <string name="company_name">Company Name</string>
+    <string name="enter_comp_name">Enter Company Name</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="enter_person_name">Enter Person Name</string>
+    <string name="contact_no">Contact No</string>
+    <string name="enter_contact_no">Enter Contact No</string>
+    <string name="contact_person_1">Contact Person 1</string>
+    <string name="enter_contact_person_1">Enter Contact Person Name 1</string>
+    <string name="contact_no_1">Contact No 1</string>
+    <string name="enter_contact_no_1">Enter Contact No 1</string>
+    <string name="contact_person_2">Contact Person 2</string>
+    <string name="enter_contact_person_2">Enter Contact Person Name 2</string>
+    <string name="contact_no_2">Contact No 2</string>
+    <string name="enter_contact_no_2">Enter Contact No 2</string>
+    <string name="address">Address</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="area">Area</string>
+    <string name="enter_area">Enter Area</string>
+    <string name="city">City</string>
+    <string name="enter_city">Enter City</string>
+    <string name="pin_code">Pincode</string>
+    <string name="enter_pin_code">Enter Pin-code</string>
+    <string name="submit">Submit</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="contact">Contact</string>
+    <string name="designation">Designation</string>
+    <string name="joining_date">Joining Date</string>
+    <string name="email">Email Id</string>
+
+    <string name="update_password">Update Password</string>
+    <string name="enter_old_password"> Enter old Password</string>
+    <string name="enter_new_password"> Enter New Password</string>
+    <string name="enter_new_password_again"> Enter New Password Again</string>
+    <string name="update">Update</string>
+
+    <string name="enter_for_search">Enter For Search</string>
+    <string name="search">Search</string>
+    <string name="reload">Reload</string>
+
+    <string name="fields_should_not_be_empty">Fields should not be empty</string>
+    <string name="wrong_old_password">Wrong old password</string>
+    <string name="password_mismatches">Password Mismatches</string>
+
+    <string name="star_fields_should_not_be_empty">* Fields should not be empty</string>
+
+    <string name="next_followup">Next Followup</string>
+    <string name="status">Status</string>
+    <string name="person_name">Person Name</string>
+    <string name="ticket_no">Ticket No</string>
+
+    <string name="fail">Fail to fetch data</string>
+
+    <string name="call">Call</string>
+    <string name="description">Description</string>
+    <string name="write_update_related_to_followup">Write update related to followup</string>
+    <string name="select_status">Select Status</string>
+    <string name="select_next_followup_date">Select next followup date</string>
+    <string name="choose_file">Choose File</string>
+    <string name="file_selected">File Selected</string>
+    <string name="upload_pdf">Upload PDF</string>
+    <string name="no_records_found">No Records Found</string>
+
+    <string name="permission_denied">Permission denied</string>
+
+</resources>

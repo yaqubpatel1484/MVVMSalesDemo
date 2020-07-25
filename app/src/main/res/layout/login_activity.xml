@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:paddingBottom="16dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9.8"
+                    android:layout_gravity="center"
+                    android:background="@drawable/border_curve2"
+                    android:backgroundTint="@color/colorWhite"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login"
+                        style="@style/txt_heading"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="2dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_username"
+                            tools:ignore="VectorDrawableCompat"
+                            android:contentDescription="@string/icon_user_id" />
+
+                        <EditText
+                            android:id="@+id/login_activity_edtUserId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="24dp"
+                            android:hint="@string/user_id"
+                            android:inputType="text"
+                            android:autofillHints="None"
+                            style="@style/edt_style"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="2dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:src="@drawable/icon_password"
+                            tools:ignore="VectorDrawableCompat"
+                            android:contentDescription="@string/icon_password" />
+
+                        <EditText
+                            android:id="@+id/login_activity_edtPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="24dp"
+                            android:hint="@string/password"
+                            android:inputType="textPassword"
+                            android:autofillHints="None"
+                            style="@style/edt_style"/>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/login_btnLogin"
+                        android:layout_width="144dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login"
+                        style="@style/btn1_enquiryFormEditText"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+        </LinearLayout>
+    </ScrollView>

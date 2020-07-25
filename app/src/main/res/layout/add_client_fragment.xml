@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/addClient_layout"
+        style="@style/layout_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="176dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:src="@mipmap/app_icon"
+            android:contentDescription="@string/icon_logo" />
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/txt2_SideHeadingStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/company_name" />
+
+                <TextView
+                    style="@style/txt8_StarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/star" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/addClient_edtCompanyName"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_comp_name"
+                android:inputType="text"
+                android:autofillHints="@string/enter_comp_name" />
+        </LinearLayout>
+
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/txt2_SideHeadingStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_person" />
+
+                <TextView
+                    style="@style/txt8_StarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/star" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/addClient_edtPersonName"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_person_name"
+                android:autofillHints="@string/enter_person_name"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/txt2_SideHeadingStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_no" />
+
+                <TextView
+                    style="@style/txt8_StarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/star" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/addClient_edtContactNo"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_contact_no"
+                android:inputType="number"
+                android:autofillHints="@string/enter_contact_no" />
+        </LinearLayout>
+
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/txt2_SideHeadingStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_person_1" />
+
+                <TextView
+                    style="@style/txt8_StarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/star" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/addClient_edtContactPerson1"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_contact_person_1"
+                android:autofillHints="@string/enter_contact_person_1"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                style="@style/txt2_SideHeadingStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:text="@string/contact_no_1" />
+
+            <EditText
+                android:id="@+id/addClient_edtContactNo1"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_contact_no_1"
+                android:inputType="number"
+                android:autofillHints="@string/enter_contact_no_1" />
+        </LinearLayout>
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                style="@style/txt2_SideHeadingStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:text="@string/contact_person_2" />
+
+            <EditText
+                android:id="@+id/addClient_edtContactPerson2"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_contact_person_2"
+                android:autofillHints="@string/enter_contact_person_2"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                style="@style/txt2_SideHeadingStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:text="@string/contact_no_2" />
+
+            <EditText
+                android:id="@+id/addClient_edtContactNo2"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_contact_no_2"
+                android:autofillHints="@string/enter_contact_no_2"
+                android:inputType="number" />
+        </LinearLayout>
+
+
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                style="@style/txt2_SideHeadingStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:text="@string/address" />
+
+            <EditText
+                android:id="@+id/addClient_edtAddress"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_address"
+                android:autofillHints="@string/enter_address"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/txt2_SideHeadingStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/area" />
+
+                <TextView
+                    style="@style/txt8_StarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/star" />
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/addClient_edtArea"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_area"
+                android:autofillHints="@string/enter_area"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/txt2_SideHeadingStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/city" />
+
+                <TextView
+                    style="@style/txt8_StarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/star" />
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/addClient_edtCity"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_city"
+                android:autofillHints="@string/enter_city"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                style="@style/txt2_SideHeadingStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:text="@string/pin_code" />
+
+
+            <EditText
+                android:id="@+id/addClient_edtPincode"
+                style="@style/edt1_enquiryFormEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6.5"
+                android:hint="@string/enter_pin_code"
+                android:inputType="number"
+                android:autofillHints="@string/enter_pin_code" />
+        </LinearLayout>
+
+        <View
+            style="@style/view1_enquiryFormView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+
+
+
+        <Button
+            android:id="@+id/addClient_btnSubmit"
+            style="@style/btn1_enquiryFormEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+</ScrollView>
+

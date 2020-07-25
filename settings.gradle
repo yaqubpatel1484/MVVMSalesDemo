@@ -1,0 +1,2 @@
+rootProject.name='SalesDemo(MVVM)'
+include ':app'

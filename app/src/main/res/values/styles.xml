@@ -1,0 +1,104 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Font">
+        <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+    <style name="layout_background">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="AppBlackTheme">
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="view1_enquiryFormView" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@color/colorGreyMid</item>
+    </style>
+
+    <style name="edt1_enquiryFormEditText" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">top</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">@color/colorGreyMid</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+    <style name="edt_style" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">top</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+    <style name="txt2_SideHeadingStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+    <style name="txt4_enquiryFormTextView" parent="@android:style/Widget.TextView">
+    <item name="android:textSize">14sp</item>
+    <item name="android:paddingLeft">4dp</item>
+    <item name="android:layout_gravity">top</item>
+    <item name="android:textColor">@color/colorBlack</item>
+    <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+    <style name="txt8_StarStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+    <style name="txt6_SideHeadingStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+    <style name="txt7_enquiryFormTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+    <style name="txt_heading" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+    <style name="btn1_enquiryFormEditText" parent="@android:style/Widget.TextView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">serif</item>
+    </style>
+
+</resources>
